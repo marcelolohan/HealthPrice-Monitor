@@ -17,3 +17,5 @@ venv/
 # MAIN/PASTAS DE DOWNLOADS/
 *.xlsx
 *.xls
+*.crdownload
+*zip
