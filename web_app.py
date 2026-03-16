@@ -10,6 +10,10 @@ import subprocess
 from datetime import datetime, date, timedelta
 from functools import wraps
 from flask import Flask, render_template, jsonify, request, session, redirect, url_for, send_file
+import os
+
+ADMIN_USER = os.getenv("ADMIN_USER")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 app = Flask(__name__, static_folder="static")
 app.secret_key = os.environ.get("HPM_SECRET", "hpm-secret-2026-change-me")
