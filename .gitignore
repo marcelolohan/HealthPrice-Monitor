@@ -13,3 +13,7 @@ venv/
 
 # logs
 *.log
+
+# MAIN/PASTAS DE DOWNLOADS/
+*.xlsx
+*.xls
