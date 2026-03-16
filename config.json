@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "f83b36642115",
+      "username": "admin",
+      "name": "Administrador",
+      "role": "admin",
+      "salt": "2e23bd73aabcf9272ed02960e0126dd4",
+      "password_hash": "38ae630a3d098a69bf69ad6d5db6cb593a36075cf3d953626d5841eaf3a4db35",
+      "created_at": "2026-03-13T17:29:25.141744"
+    },
+    {
+      "id": "bcf8fed0756c",
+      "username": "rodrigo.castro",
+      "name": "Rodrigo dos Santos Castro",
+      "role": "operator",
+      "salt": "0a9ef6ca1fa322a05c122f82fe032578",
+      "password_hash": "2da69c1feabe5d24c0f33cf3f936475fcae29ca6f66c52a2a8c77d03da223f0f",
+      "created_at": "2026-03-13T17:43:17.549712",
+      "must_change_password": false
+    }
+  ],
+  "schedule": {
+    "enabled": true,
+    "times": [
+      "08:00",
+      "18:00"
+    ],
+    "last_auto_runs": {}
+  },
+  "alerts": {
+    "email": {
+      "enabled": false,
+      "address": ""
+    },
+    "telegram": {
+      "enabled": false,
+      "token": "",
+      "chat_id": ""
+    },
+    "whatsapp": {
+      "enabled": true,
+      "number": "+5563999734063"
+    },
+    "events": {
+      "login_failed": true,
+      "new_table": true,
+      "success": true,
+      "error": true
+    }
+  },
+  "notifications": [
+    {
+      "id": "n_1773581236352",
+      "title": "teste",
+      "body": "teste",
+      "type": "warning",
+      "created_at": "2026-03-15T10:27:16.352577",
+      "target_users": null,
+      "read_by": []
+    }
+  ]
+}
