@@ -1,0 +1,6 @@
+flask
+selenium
+requests
+gunicorn
+webdriver-manager
+pandas
